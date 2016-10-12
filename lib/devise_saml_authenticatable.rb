@@ -62,7 +62,7 @@ module Devise
   mattr_accessor :saml_relay_state
   @@saml_relay_state
 
-  # Implements a #validate method that takes the IDP entity id and auth value, and returns true if it's valid
+  # Implements a #validate method that takes the response and auth value, and returns true if it's valid
   mattr_accessor :saml_auth_value_validator
   @@saml_auth_value_validator
 
